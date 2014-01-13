@@ -1,6 +1,6 @@
 # InstaClick Base Riak Bundle
 
-[![Build Status](https://secure.travis-ci.org/instaclick/ICBaseRiakBundle.png)](http://travis-ci.org/instaclick/ICBaseRiakBundle
+[![Build Status](https://secure.travis-ci.org/instaclick/ICBaseRiakBundle.png)](http://travis-ci.org/instaclick/ICBaseRiakBundle)
 
 *IMPORTANT NOTICE:* This bundle is still under development. Any changes will
 be done without prior notice to consumers of this package. Of course this
