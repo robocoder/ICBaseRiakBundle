@@ -64,7 +64,7 @@ Installing this bundle can be done through these simple steps:
 
         <service id="Acme.service.manolo" class="Acme\Service\Manolo">
             <call method="setCachepProvider">
-                <argument type="service" id="ic_base_riak.bucket.the_manolo_bucket" />
+                <argument type="service" id="Acme.cache.manolo" />
             </call>
         </service>
 </services>
