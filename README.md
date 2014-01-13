@@ -54,7 +54,6 @@ Installing this bundle can be done through these simple steps:
 4. Create a service and inject it into the desired service
 ```xml
 <services>
-
         <service id="Acme.cache.manolo"
                  class="Doctrine\Common\Cache\RiakCache">
             <argument type="service" id="ic_base_riak.bucket.the_manolo_bucket"/>
@@ -68,9 +67,7 @@ Installing this bundle can be done through these simple steps:
                 <argument type="service" id="ic_base_riak.bucket.the_manolo_bucket" />
             </call>
         </service>
-
 </services>
-
 ```
 
 ## Usage
