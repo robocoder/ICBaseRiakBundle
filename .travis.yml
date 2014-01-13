@@ -6,6 +6,6 @@ php:
   - 5.5
 
 before_script:
-    - pecl install riak-beta
+    - pecl install riak
     - wget http://getcomposer.org/composer.phar
     - php composer.phar install --dev
