@@ -1,5 +1,7 @@
 # InstaClick Base Riak Bundle
 
+[![Build Status](https://secure.travis-ci.org/instaclick/ICBaseRiakBundle.png)](http://travis-ci.org/instaclick/ICBaseRiakBundle
+
 *IMPORTANT NOTICE:* This bundle is still under development. Any changes will
 be done without prior notice to consumers of this package. Of course this
 code will become stable at a certain point, but for now, use at your own risk.
@@ -48,7 +50,8 @@ Installing this bundle can be done through these simple steps:
             host: 'cache-server'
             port: 8087
     buckets:
-        the_manolo_bucket: ~
+        the_manolo_bucket: my_serious_bucket_name
+        my_another_serious_bucket: ~
 ```
 
 4. Create a service and inject it into the desired service
