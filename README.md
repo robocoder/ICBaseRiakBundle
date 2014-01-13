@@ -51,7 +51,7 @@ Installing this bundle can be done through these simple steps:
         the_manolo_bucket: ~
 ```
 
-4. Create a service
+4. Create a service and inject it into the desired service
 ```xml
 <services>
 
@@ -63,13 +63,6 @@ Installing this bundle can be done through these simple steps:
             </call>
         </service>
 
-</services>
-```
-
-5. Inject in the desired service
-```xml
-<services>
-
         <service id="Acme.service.manolo" class="Acme\Service\Manolo">
             <call method="setCachepProvider">
                 <argument type="service" id="ic_base_riak.bucket.the_manolo_bucket" />
@@ -77,6 +70,7 @@ Installing this bundle can be done through these simple steps:
         </service>
 
 </services>
+
 ```
 
 ## Usage
