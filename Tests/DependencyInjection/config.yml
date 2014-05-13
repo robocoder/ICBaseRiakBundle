@@ -1,0 +1,8 @@
+ic_base_riak:
+  default_connection: 'default'
+  connections:
+    default:
+      host: 127.0.0.1
+      port: 5672
+  buckets:
+    test: ~

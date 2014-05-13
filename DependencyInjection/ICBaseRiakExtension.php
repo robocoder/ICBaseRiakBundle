@@ -66,6 +66,8 @@ class ICBaseRiakExtension extends Extension
                 )
             );
 
+            $connectionDefinition->setLazy(true);
+
             $this->container->setDefinition($connectionServiceId, $connectionDefinition);
         }
 
